@@ -1,4 +1,4 @@
-def check(string):
+def verify_bracket(string):
     open_brack = ["[", "{", "("]
     close_brack = ["]", "}", ")"]
 
@@ -22,4 +22,4 @@ def check(string):
 string_verif = "{{}{}()}()[])"  # string to verify
 
 if __name__ == '__main__':
-    print(string_verif, 'is', check(string_verif))
+    print(string_verif, 'is', verify_bracket(string_verif))
